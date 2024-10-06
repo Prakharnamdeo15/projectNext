@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import styles from "./page.module.css";
+// import styles from "./page.module.css";
 
 import KeyBpm from "./keyBpm/page";
 import Cutter from "./cutter/page"
