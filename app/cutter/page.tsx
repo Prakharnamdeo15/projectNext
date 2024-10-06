@@ -54,7 +54,7 @@
 //     </div>
 //     )
 // }
-
+"use client"
 import "./cutter.css";
 import { useEffect, useRef, useState } from 'react';
 import WaveSurfer from 'wavesurfer.js';
