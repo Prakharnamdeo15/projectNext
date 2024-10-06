@@ -40,3 +40,75 @@ a {
     color-scheme: dark;
   }
 }
+.leftBar{
+  display: flex;
+  background-color: #212130;
+  height: 100vh;
+  width: 5rem;
+  position: sticky;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  border-right: 1px solid rgb(49, 49, 49);
+  transition: width 0.12s ease-in;
+
+}
+.leftBar_hid{
+  display: flex;
+  background-color: #1f1f2b;
+  height: 100vh;
+  width: 0rem;
+  position: sticky;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  border-right: 1px solid rgb(68, 68, 68);
+  transition: width 0.12s ease-in;
+
+}
+.container{
+  display: flex;
+  background-color: red;
+}
+.rightSide{
+  padding: 50px;
+  height: 100vh;
+  /* width: 1; */
+  flex:1;
+  background-color: green;
+  overflow-y: scroll;
+  overflow-wrap: break-word;
+}
+.ico{
+  /* margin: 5px; */
+  font-size: small;
+  padding: 15px;
+  width: 85px;
+  cursor: pointer;
+  color: #979595;
+  transition: color 0.27s ease-in-out;
+
+  /* background-color: yellow; */
+
+/* background-color: green; */
+}
+.ico:hover{
+  font-weight: 500;
+  color: white;
+}
+.img{
+  height: 26px;
+  width: 45px;
+}
+.menu{
+  position: absolute;
+  top: 20px;
+  left: 17px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.upper{
+  margin-top: 70px;
+}
+.cover{
+  background-color: #171720;
+}

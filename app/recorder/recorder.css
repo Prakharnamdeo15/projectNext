@@ -1,0 +1,8 @@
+.cover{
+    /* background-color: cornflowerblue; */
+    flex: 1;
+}
+.noMic{
+    height: 53px;
+    width: 50px;
+}

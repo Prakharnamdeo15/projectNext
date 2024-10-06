@@ -1,0 +1,49 @@
+.cover{
+    flex:1;
+    /* background-color: pink; */
+}
+.cutter_container{
+    /* background-color: red; */
+    height: 80vh;
+    margin: 55px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.men{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.heading{
+    font-size: xxx-large;
+    font-weight: 900;
+}
+.menItems{
+    padding:0px 20px;
+    font-weight: 800;
+    font-size: 15px;
+}
+.des{
+    margin-top: 20px;
+    padding-top: 15px;
+    font-weight: 200;
+    font-size: 23px;
+    width: 60vw;
+    text-align: center;
+}
+.label{
+    margin: 20px 10px;
+    border: 2px solid rgb(107, 66, 146);
+    border-radius: 25px;
+    width: 155px;
+    height: 40px;
+    text-align: center;
+    padding: 8px;
+}
+.wave{
+    /* background-color: #fff; */
+    height: 50px;
+    margin-top: 50px;
+}
